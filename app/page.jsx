@@ -6,7 +6,7 @@ import { Button, Accordion, AccordionItem } from "@nextui-org/react";
 export default function Home() {
   return (
     <main>
-      <div className="relative w-auto lg:h-[700px]  sm:h-[500px] h-[500px] overflow-auto flex text-white ">
+      <header className="relative w-auto lg:h-[700px]  sm:h-[500px] h-[500px] overflow-auto flex text-white ">
         <RtImage
           fill
           src="rtreconnect/vvieln9bzqb7cvui879k"
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </header>
       <div className="lg:py-[112px] px-5 py-[56px] max-w-[1200px] mx-auto flex lg:flex-row flex-col items-center justify-between gap-[80px]">
         <div className=" mx-auto flex flex-col lg:gap-[32px] gap-3 ">
           <h1 className="lg:text-4xl text-[30px] font-mont hello font-bold">

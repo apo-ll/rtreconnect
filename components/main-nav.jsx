@@ -34,6 +34,10 @@ export default function MainNav() {
       name: "Contact",
       href: "/Contact",
     },
+    {
+      name: "Gallery",
+      href: "/Gallery",
+    },
   ];
 
   return (

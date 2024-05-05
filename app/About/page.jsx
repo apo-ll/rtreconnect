@@ -4,7 +4,7 @@ import { Button } from "@nextui-org/react";
 export default function AboutUs() {
   return (
     <main>
-      <header className="relative w-auto lg:h-[700px]  sm:h-[500px] h-[500px] overflow-auto flex text-white ">
+      <header className="relative w-auto lg:h-[600px]  sm:h-[500px] h-[500px] overflow-auto flex text-white ">
         <RtImage
           fill
           src="rtreconnect/vvieln9bzqb7cvui879k"

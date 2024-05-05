@@ -137,7 +137,7 @@ export default function Home() {
             Discover the Benefits of Joining Our Road to Reconnect Community
           </h1>
           <div className="flex flex-col gap-[10px]">
-            <p className="text-[18px]">
+            <p className="text-[18px] text-white">
               Discover a power of connection and mentorship
             </p>
             <div>
@@ -174,7 +174,7 @@ export default function Home() {
               Discover a power of connection and mentorship
             </p>
           </div>
-          <div className="w-full">
+          <div className="w-full lg:mb-0 sm:mb-10 mb-10">
             <Accordion className="w-full">
               <AccordionItem
                 key="1"

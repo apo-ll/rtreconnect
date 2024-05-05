@@ -76,7 +76,7 @@ export default function MainNav() {
           <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" radius="none">
+          <Button as={Link} color="primary" href="#" radius="none" size="lg">
             Sign Up
           </Button>
         </NavbarItem>
@@ -85,16 +85,10 @@ export default function MainNav() {
         {Menu.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
             <Link
-              color={
-                index === 2
-                  ? "primary"
-                  : index === menuItems.length - 1
-                  ? "danger"
-                  : "foreground"
-              }
-              className="w-full"
+              className={`${
+                pathName === item.href ? "text-[#F0A81D]" : "text-black"
+              } text-3xl py-4`}
               href={item.href}
-              size="lg"
             >
               {item.name}
             </Link>
